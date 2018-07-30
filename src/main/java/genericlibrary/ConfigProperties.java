@@ -23,7 +23,7 @@ public class ConfigProperties {
 	public static void readProperties() throws IOException {
 		
 		properties =new Properties();
-		InputStream input=new FileInputStream("C:\\Users\\Ranosys\\workspace\\FrameworkDemo\\Constant.properties");
+		InputStream input=new FileInputStream("./Constant.properties");
 			properties.load(input);
 		
 	}
